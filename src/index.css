@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Inter:wght@100..900&family=Space+Grotesk:wght@300..700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Playfair Display", serif;
+  --font-sans: "Inter", sans-serif;
+  --font-display: "Space Grotesk", sans-serif;
+
+  --color-accent: #8b6e2f; /* Deep Gold/Brass */
+  --color-border: #e2e8f0;
+}
+
+@layer base {
+  body {
+    @apply bg-white text-black font-sans selection:bg-accent selection:text-white;
+    scroll-behavior: smooth;
+  }
+
+  .perspective-2000 {
+    perspective: 2000px;
+  }
+}
+
+@layer utilities {
+  .bg-watermark {
+    background-image: url('https://images.unsplash.com/photo-1589829545856-d10d557cf95f?auto=format&fit=crop&q=80&w=1200');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.05;
+    mix-blend-mode: multiply;
+  }
+}
