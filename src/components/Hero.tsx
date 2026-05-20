@@ -30,7 +30,7 @@ export default function Hero() {
           <div className="w-48 h-3 bg-accent/80 rounded-full mb-16 shadow-lg" />
 
           <p className="font-serif text-2xl md:text-3xl text-black/90 max-w-4xl mx-auto mb-20 leading-relaxed font-bold">
-            Providing expert legal counsel since 2003. Specializing in Civil, Criminal, and Property Law with a focus on meticulous documentation and strategic litigation.
+            Legal counsel since 2003. Specializing in Civil, Criminal, and Property Law with a focus on meticulous documentation and strategic litigation.
           </p>
 
           <div className="flex flex-col md:flex-row items-center justify-center gap-8 w-full max-w-2xl mx-auto font-sans">
